@@ -1,0 +1,1012 @@
+.paddingssss-right-15 {
+    margin-right: 15px;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    padding: 7px 0;
+}
+
+.header .logo {
+    width: 100%;
+    float: left;
+    margin-top: 8px;
+}
+
+.header .logo a {
+    width: 100%;
+    float: left;
+}
+
+.header .logo a img {
+    width: 100%;
+    float: left;
+}
+
+.bg-light {
+    background: #fff !important;
+}
+
+.header .menu {
+    width: 100%;
+    float: left;
+    margin-top: 3px;
+
+}
+
+.header .menu ul li a {
+    color: #333;
+    font-weight: 500 !important;
+    padding: 8px 10px !important;
+}
+
+.header .account-home {
+    width: 100%;
+    float: left;
+}
+
+.header .account-home ul {
+    width: 100%;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.header .account-home ul li {
+    list-style: none;
+    float: left;
+}
+
+.header .account-home ul li {
+    position: relative;
+}
+
+.header .account-home ul li:first-child::after {
+    content: "|";
+    position: absolute;
+    top: 14%;
+}
+
+.header .account-home ul li a {
+    float: left;
+    padding: 8px 10px;
+    color: #000000;
+}
+
+.custom-btn-news {
+    color: #fff !important;
+}
+
+.margin-left-40 {
+    margin-left: 40px;
+}
+
+.slider-search {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+.slider-search img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-box {
+    width: 100%;
+    float: left;
+    position: absolute;
+    top: 0;
+    padding: 35px 0;
+}
+
+.wrap-search {
+    width: 100%;
+    float: left;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 6px;
+}
+
+.height-40 {
+    height: 40px !important;
+}
+
+.no-border-radius-right {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+
+.containers {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #fff;
+}
+
+/* Hide the browser's default radio button */
+.containers input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.containers:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.containers input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.containers input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.containers .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.more {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+}
+
+.more span {
+    cursor: pointer;
+}
+
+.more img {
+    width: 15px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.more-condition {
+    display: none !important;
+}
+
+.show-more-condition {
+    display: flex !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.more-less {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #fff;
+    display: none;
+}
+
+.more-less img {
+    width: 15px;
+    height: 18px;
+    margin-right: 8px;
+}
+
+.show-less {
+    display: block;
+    width: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.news-hot {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+
+.tab-news {
+    width: 100%;
+}
+
+.tab-news ul li a {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px 30px 8px 0;
+    color: #777 !important;
+}
+
+.tab-news ul li a.active {
+    border: none;
+    color: #5a6268 !important;
+    position: relative;
+}
+
+.tab-news ul li a.active::before {
+    position: absolute;
+    border: 2px solid #3c9f10;
+    background: #3c9f10;
+    width: 46px;
+    line-height: 1px;
+    border-radius: 10px;
+    bottom: -4px;
+    content: '';
+}
+
+.tab-news ul li a.active::hover {
+    border: none;
+}
+
+#slider-newshot .carousel-items img {
+    width: 100%;
+    height: auto !important;
+}
+
+#slider-newshot .carousel-items .carousel-caption {
+    left: 0 !important;
+    right: 0 !important;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#slider-newshot .carousel-items img {
+    width: 100%;
+    height: auto;
+}
+
+#slider-newshot .carousel-items .carousel-caption {
+    left: 0 !important;
+    right: 0 !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tab-content {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.ads {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.tab-news .carousel-caption {
+    left: 0 !important;
+    right: 0 !important;
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.tab-news .carousel-item img {
+    height: auto !important;
+}
+
+.product-box {
+    width: 100%;
+    float: left;
+    margin: 20px 0;
+    background: #F0F2F5;
+}
+
+.title-box {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    border-bottom: 1px #ccc solid;
+}
+
+.title-box::before {
+    position: absolute;
+    border: 2px solid #3c9f10;
+    background: #3c9f10;
+    width: 46px;
+    line-height: 1px;
+    border-radius: 10px;
+    bottom: -1px;
+    content: '';
+}
+
+.content-product {
+    width: 100%;
+    float: left;
+    margin: 15px 0;
+}
+
+.content-product .items-product {
+    width: 100%;
+    float: left;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.content-product .items-product:hover {
+    box-shadow: #cccccc 0 0 5px;
+}
+
+.content-product .home-product {
+    float: left;
+    padding: 5px 10px !important;
+}
+
+.content-product .items-product a {
+    float: left;
+    width: 100%;
+}
+
+.content-product .items-product a .image-product {
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.content-product .items-product a .image-product img {
+    float: left;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.content-product .items-product a .title-item-product {
+    float: left;
+    width: 100%;
+}
+
+.content-product .items-product a .title-item-product h3 {
+    float: left;
+    font-size: 16px;
+    color: black;
+}
+
+.content-product .items-product a .price-m2 {
+    float: left;
+    width: 100%;
+
+}
+
+.content-product .items-product a .price-m2 span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #5a6268;
+}
+
+.extend-product {
+    text-align: center !important;
+    padding-bottom: 20px;
+}
+
+.real-estate {
+    width: 100%;
+    float: left;
+}
+
+.plane-big {
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.plane-small {
+    float: left;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+.real-estate-left-1 {
+    margin-right: -9px;
+}
+
+.real-estate-left-2 {
+    margin-left: -9px
+}
+
+.real-estate-left-4 {
+    margin-top: 10px;
+    margin-left: -9px;
+}
+
+.real-estate-left-3 {
+    margin-top: 10px;
+    margin-right: -9px;
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left {
+    transform: translateX(0);
+
+}
+
+.home-conten {
+    width: 100%;
+    float: left;
+    background: #F5F5F5;
+    margin-top: 50px;
+}
+
+.content-colum {
+    width: 100%;
+    float: left;
+
+
+}
+
+.title-colum h3 {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.title-colum h3 a {
+    font-size: 16px;
+    font-family: revert;
+    margin-left: 36px;
+}
+
+.title-colum ul li {
+    list-style: none;
+    margin-left: -3px !important;
+    color: #59B1E0;
+}
+
+.footer {
+    width: 100%;
+    float: left;
+    background: #024073;
+}
+
+.footer-top {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #fff;
+    border-bottom: 1px solid #055699;
+}
+
+.company-footer a {
+    display: block;
+    font-size: 14px;
+    color: #7ac6ea;
+    font-weight: normal;
+}
+
+.company-footer {
+    text-align: center;
+}
+
+.logo-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Contact-Info {
+    margin: 15px 0 !important;
+}
+
+.footer-social {
+    margin-left: 40px;
+}
+
+.footer-license {
+    margin-bottom: 10px;
+}
+
+.footer-social a {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.footer-top-right {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.sub-header {
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #055699;
+    padding-bottom: 18px;
+    margin-bottom: 8px;
+}
+
+.sub-content {
+    float: left !important;
+    width: 100%;
+}
+
+.sub-content ul li {
+    list-style: none;
+    margin-left: -38px;
+    font-size: 14px;
+
+}
+
+.footer-app {
+    margin: 18px 0 9px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer-mid {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #fff;
+    border-bottom: 1px solid #055699;
+
+}
+
+.name-company {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.address-company {
+    font-size: 13px;
+}
+
+.item {
+    width: 20%;
+}
+
+.item {
+    width: 33.333%;
+}
+
+.item {
+    width: 50%;
+}
+
+/* show 5 slides */
+/* show 3 slides */
+/* show 2 slides */
+#exampleSlider {
+    position: relative; /* recommended */
+}
+
+#exampleSlider .MS-content {
+    white-space: nowrap; /* required */
+    overflow: hidden; /* required */
+}
+
+#exampleSlider .MS-content .item {
+    display: inline-block; /* required */
+    width: 20%; /* required * Determines number of visible slides */
+    position: relative; /* required */
+    vertical-align: top; /* required */
+    overflow: hidden; /* required */
+    white-space: normal; /* recommended */
+}
+
+#exampleSlider .MS-content .item img {
+    width: 200px;
+    margin: 5px 15px;
+}
+
+#exampleSlider .MS-content .title-item {
+    float: left;
+    width: 100%;
+}
+
+#exampleSlider .MS-content .title-item a {
+    font-weight: bold;
+}
+
+#exampleSlider .MS-controls button {
+    position: absolute; /* recommended */
+    top: 35px;
+}
+
+#exampleSlider .MS-controls .MS-left {
+    left: -38px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 23px 23px 23px 23px;
+}
+
+#exampleSlider .MS-controls .MS-right {
+    right: -45px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 23px 23px 23px 23px;
+}
+
+#exampleSlider1 {
+    position: relative; /* recommended */
+}
+
+#exampleSlider1 .MS-content {
+    white-space: nowrap; /* required */
+    overflow: hidden; /* required */
+}
+
+#exampleSlider1 .MS-content .item {
+    display: inline-block; /* required */
+    width: 20%; /* required * Determines number of visible slides */
+    position: relative; /* required */
+    vertical-align: top; /* required */
+    overflow: hidden; /* required */
+    white-space: normal; /* recommended */
+}
+
+#exampleSlider1 .MS-content .item img {
+    width: 200px;
+    margin: 5px 15px;
+}
+
+#exampleSlider1 .MS-content .title-item {
+    float: left;
+    width: 100%;
+}
+
+#exampleSlider1 .MS-content .title-item a {
+    font-weight: bold;
+}
+
+#exampleSlider1 .MS-controls button {
+    position: absolute; /* recommended */
+    top: 35px;
+}
+
+#exampleSlider1 .MS-controls .MS-left {
+    left: -38px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 23px 23px 23px 23px;
+}
+
+#exampleSlider1 .MS-controls .MS-right {
+    right: -45px;
+    top: 50px;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 23px 23px 23px 23px;
+}
+
+.main {
+    width: 100%;
+    float: left;
+}
+
+.login {
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: #cccccc 0 0 5px;
+}
+
+.form-title {
+    padding: 50px 10px 20px 50px;
+}
+.input-group-tex{
+    padding-left: 30px;
+}
+.mb-3 {
+    padding-left: 20px;
+    padding-bottom: 20px !important;
+}
+.form-control {
+    border: none !important;
+    border-bottom:  1px solid #999 !important;
+}
+.input-group-text {
+    background: none !important;
+    border: none !important;
+    border-bottom:1px solid #999 !important ;
+}
+
+.form-check {
+    padding-left:43px !important;
+    padding-bottom: 20px !important;
+}
+.send {
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.image-login {
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+}
+.breadcrumb {
+    background-color: #fff !important;
+}
+.breadcrumb li a {
+    font-size: 15px;
+    color: #cccccc;
+}
+.ContainerProduct {
+    width: 100%;
+    float: left;
+}
+.ContainerProduct h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.short-detail {
+    font-size: 15px;
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+.short-detail-wap{
+    border-top:1px solid #EBEDF0 ;
+    border-bottom:1px solid #EBEDF0 ;
+    margin-bottom: 20px;
+}
+.short-detail-wap .short-colum {
+
+    list-style: none;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.short-detail-wap .short-colum .sp1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #747c87;
+    width: auto;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.short-detail-wap .short-colum .sp2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2c2f36;
+    width: auto;
+    display: block;
+    margin-top: 4px;
+}
+.short-detail-wap .short-colum .sp3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: rgba(0,0,0,.8);
+    margin-top: 5px;
+    display: inline-block;
+}
+.short-detail-wap .short-colum .sp4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+    color: rgba(0, 0, 0, .6);
+    margin-top: 5px;
+    display: inline-block;
+}
+.share {
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.share span {
+    font-size: 17px;
+    font-weight: 500;
+}
+.detail-product {
+    width: 100%;
+    float: left;
+}
+.information-detail h1 {
+    font-size: 20px !important;
+
+}
+.des-detail {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2c2f36;
+    overflow: hidden;
+    word-break: break-word;
+
+}
+.box-detail {
+    border: 1px solid #ebedf0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.row-1 {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.row-1 .r1{
+    width: 112px;
+    float: left;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px !important;
+    color: #2c2f36;
+    margin-right: 8px;
+}
+.row-1 .r2 {
+    float: left;
+    width: calc(100% - 120px);
+    color: #2c2f36;
+}
+.keyword span {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+.note {
+    width: 100%;
+    float: left;
+    border-top:1px solid #EBEDF0 ;
+    color: #cccccc;
+    padding-top: 39px;
+    font-size: 15px;
+    padding-bottom: 34px;
+
+}
+.user {
+    width: 100%;
+    float: left;
+    border:1px solid #EBEDF0 ;
+    border-radius: 4px ;
+}
+.avata {
+    margin-left: 130px;
+    margin-top: 35px;
+    margin-right: 96px;
+}
+.avata span {
+    background: #edf7ff;
+    border: 1px solid #ebedf0;
+    box-sizing: border-box;
+    border-radius: 800px;
+    font-weight: 500;
+    width: 64px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -.16px;
+    color: #004e7f;
+    display: inline-block;
+    margin-bottom: 8px;
+
+}
+.name {
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+.info {
+    text-align: center;
+    color: #9399A2;
+}
+.phone-customer {
+    border: 1px solid #ebedf0;
+    background: #3c9f10;
+    color: #fff;
+    text-align: center;
+    margin-left: 91px;
+    margin-right: 95px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.email-customer {
+    border: 1px solid #ebedf0;
+    color: blue;
+    text-align: center;
+    margin-left: 91px;
+    margin-right: 95px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.box-commom {
+    width: 100%;
+    float: left;
+    border-radius: 4px ;
+    background: #F5F6F7;
+    margin-top: 15px;
+}
+.box-commom h2 {
+    font-size: 17px !important;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ebedf0;
+}
+.box-content {
+    width: 100%;
+    float: left;
+}
+.box-content ul li {
+    float: left;
+    list-style: none;
+
+}
+.box-content ul li a {
+    float: left;
+    width: 100%;
+    color:#9399A2 !important ;
+    padding-left: 10px;
+}
