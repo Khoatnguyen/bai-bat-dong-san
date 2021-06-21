@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class ContactInfo extends Model
 {
     use HasFactory;
-    protected $table ='contact-info';
+    protected $table ='contact_info';
     protected $fillable =[
-        'mews_id',
+        'news_id',
         'name',
         'address',
         'email',

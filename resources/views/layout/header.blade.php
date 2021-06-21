@@ -72,9 +72,8 @@
                                         ?>
                                     </button>
                                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <a class="dropdown-item" href="#">Something else here</a>
+                                        <a class="dropdown-item" href="{{route('view.user.list')}}">thông tin người dùng</a>
+                                        <a class="dropdown-item" href="#">đăng xuất</a>
                                     </div>
                                 </div>
                             @endif
@@ -89,7 +88,7 @@
                         </li>
                         @if(\Illuminate\Support\Facades\Auth::check())
                             <li class="margin-left-40">
-                                <a href="#" class="btn btn-primary custom-btn-news"> đăng tin</a>
+                                <a href="{{route('create-news')}}" class="btn btn-primary custom-btn-news"> đăng tin</a>
                             </li>
 
                         @endif
